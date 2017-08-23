@@ -24,7 +24,7 @@ This set of documents covers installation and contribution instructions.
 Contents:
 
 * :ref:`demos`
-* :ref:`zulip-in-production`
+* :ref:`implementation`
 
 .. _demos:
 
@@ -35,13 +35,22 @@ Contents:
    demo-2017-08-18
    demo-2017-09-01
 
-.. _zulip-in-production:
+.. _implementation:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Columbia Sportswear 2nd Area
+   :caption: Implementation Strategy
 
-   Implementation/2-Implementation-Strategy
+   Implementation/implementation-strategy
+   Implementation/odp-frameworks
+   Implementation/dynamics-365-and-automation
+   Implementation/3rd-party-boundary-integrations
+   Implementation/functional-apis
+   Implementation/hr-systems
+   Implementation/creative-solutions
+   Implementation/on-premises-integrations
+   Implementation/payment-solutions
+   Implementation/store-solutions
 
 .. image:: assets/images/digitalservicefabric-96.png
 .. image:: assets/images/opendataplatform-96.png
