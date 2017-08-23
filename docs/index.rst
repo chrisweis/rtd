@@ -34,43 +34,26 @@ Contents:
 .. _overview:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Overview
 
    readme-symlink
-   architecture-overview
-   directory-structure
-   roadmap
-   changelog
 
 .. _zulip-in-production:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Zulip in production
 
    Production overview <prod>
-   prod-requirements
-   Installing a production server <prod-install>
-   prod-troubleshooting
-   prod-customize
-   prod-mobile-push-notifications
-   prod-maintain-secure-upgrade
-   security-model
-   prod-authentication-methods
-   prod-postgres
 
 .. _development-environment:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Development environment
 
    Development environment installation <dev-overview>
-   Recommended setup (Vagrant) <dev-env-first-time-contributors>
-   Advanced setup (non-Vagrant) <dev-setup-non-vagrant>
-   Using the development environment <using-dev-environment>
-   Developing remotely <dev-remote>
 
 .. _developer-tutorials:
 
