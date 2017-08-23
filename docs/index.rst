@@ -30,14 +30,15 @@ Contents:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Overview
+   :caption: Columbia Sportswear 1st Area
 
-   readme-symlink
+   demo-2017-08-18
+   demo-2017-09-01
 
 .. _zulip-in-production:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Zulip in production
+   :caption: Columbia Sportswear 2nd Area
 
    Production overview <prod>

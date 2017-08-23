@@ -43,9 +43,9 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'Zulip'
-copyright = u'2015-2017, The Zulip Team'
-author = u'The Zulip Team'
+project = u'GRP ODP'
+copyright = u'2017, Columbia Sportswear'
+author = u'Columbia Sportswear'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
