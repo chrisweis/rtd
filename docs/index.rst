@@ -23,14 +23,14 @@ This set of documents covers installation and contribution instructions.
 
 Contents:
 
-* :ref:`overview`
+* :ref:`demos`
 * :ref:`zulip-in-production`
 
-.. _overview:
+.. _demos:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Columbia Sportswear 1st Area
+   :caption: Open Data Platform Demos
 
    demo-2017-08-18
    demo-2017-09-01
