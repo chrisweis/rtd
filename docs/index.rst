@@ -41,8 +41,7 @@ Contents:
    :maxdepth: 1
    :caption: Columbia Sportswear 2nd Area
 
-   Production overview <prod>
-   Implementation
+   Implementation/2-Implementation-Strategy
 
 .. image:: assets/images/digitalservicefabric-96.png
 .. image:: assets/images/opendataplatform-96.png
