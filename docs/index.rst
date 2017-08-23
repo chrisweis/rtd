@@ -129,24 +129,4 @@ Contents:
    :caption: Subsystem documentation
 
    settings
-   events-system
-   queuing
-   bots-guide
-   custom-apps
-   pointer
-   markdown
-   realms
-   management-commands
-   front-end-build-process
-   schema-migrations
-   html_css
-   hashchange-system
-   emoji
-   hotspots
-   full-text-search
-   email
-   analytics
-   release-checklist
-   api-release-checklist
    README
-   user-docs
