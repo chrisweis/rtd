@@ -1,132 +1,156 @@
-Welcome to Read The Docs
-========================
+.. zulip documentation master file, created by
+   sphinx-quickstart on Mon Aug 17 16:24:04 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-`Read the Docs`_ hosts documentation for the open source community.
-We support Sphinx_ docs written with reStructuredText_ and `CommonMark`_.
-We pull your code from your Subversion_, Bazaar_, Git_, and Mercurial_ repositories.
-Then we build documentation and host it for you.
-Think of it as *Continuous Documentation*.
+Welcome to Zulip documentation!
+===============================
 
-The code is open source, and `available on GitHub`_.
+Zulip is a powerful, open source group chat application. Written in
+Python and using the Django framework, Zulip supports both private
+messaging and group chats via conversation streams.
 
-.. _Read the docs: http://readthedocs.org/
-.. _Sphinx: http://sphinx.pocoo.org/
-.. _reStructuredText: http://sphinx.pocoo.org/rest.html
-.. _CommonMark: http://commonmark.org/
-.. _Markdown: http://daringfireball.net/projects/markdown/syntax
-.. _Subversion: http://subversion.tigris.org/
-.. _Bazaar: http://bazaar.canonical.com/
-.. _Git: http://git-scm.com/
-.. _Mercurial: https://www.mercurial-scm.org/
-.. _available on GitHub: http://github.com/rtfd/readthedocs.org
+Zulip also supports fast search, drag-and-drop file uploads, image
+previews, group private messages, audible notifications, missed-message
+emails, desktop apps, and much more.
 
-The main documentation for the site is organized into a couple sections:
+Further information on the Zulip project and its features can be found
+at `https://www.zulip.org <https://www.zulip.org>`__ and in these
+docs.  Our code is available at `our GitHub repository
+<https://github.com/zulip/>`__.
 
-* :ref:`user-docs`
-* :ref:`feature-docs`
-* :ref:`about-docs`
+This set of documents covers installation and contribution instructions.
 
-Information about development is also available:
+Contents:
 
-* :ref:`dev-docs`
-* :ref:`design-docs`
+* :ref:`overview`
+* :ref:`zulip-in-production`
+* :ref:`development-environment`
+* :ref:`developer-tutorials`
+* :ref:`code-contribution-guide`
+* :ref:`code-testing`
+* :ref:`subsystem-documentation`
 
-.. _user-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: User Documentation
-
-   getting_started
-   versions
-   builds
-   features
-   support
-   faq
-   yaml-config
-   guides/index
-   api
-   embed
-
-.. _about-docs:
+.. _overview:
 
 .. toctree::
    :maxdepth: 2
-   :caption: About Read the Docs
+   :caption: Overview
 
-   contribute
-   team
-   code-of-conduct
-   ethical-advertising
-   sponsors
-   open-source-philosophy
-   story
-   talks
-   dmca/index
-
-.. _feature-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-   :caption: Feature Documentation
-
-   webhooks
-   badges
-   alternate_domains
-   localization
-   vcs
-   subprojects
-   conda
-   canonical
-   single_version
-   privacy
-   user-defined-redirects
-   automatic-redirects
-   features/*
-
-
-.. _dev-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Developer Documentation
-
-   install
-   api/index
+   readme-symlink
+   architecture-overview
+   directory-structure
+   roadmap
    changelog
-   tests
-   docs
-   architecture
-   development/standards
-   development/buildenvironments
-   symlinks
+
+.. _zulip-in-production:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Zulip in production
+
+   Production overview <prod>
+   prod-requirements
+   Installing a production server <prod-install>
+   prod-troubleshooting
+   prod-customize
+   prod-mobile-push-notifications
+   prod-maintain-secure-upgrade
+   security-model
+   prod-authentication-methods
+   prod-postgres
+
+.. _development-environment:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Development environment
+
+   Development environment installation <dev-overview>
+   Recommended setup (Vagrant) <dev-env-first-time-contributors>
+   Advanced setup (non-Vagrant) <dev-setup-non-vagrant>
+   Using the development environment <using-dev-environment>
+   Developing remotely <dev-remote>
+
+.. _developer-tutorials:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developer tutorials
+
+   integration-guide
+   integration-docs-guide
+   webhook-walkthrough
+   new-feature-tutorial
+   writing-views
+   life-of-a-request
+   reading-list
+   screenshot-and-gif-software
+   fixing-commits
+   git-cheat-sheet-detailed
+   git-cheat-sheet
+   shell-tips
+   working-copies
+
+.. _code-contribution-guide:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code contribution guide
+
+   git-guide
+   version-control
+   code-style
+   mypy
+   code-reviewing
+   chat-zulip-org
+   zulipbot-usage
+   accessibility
+   bug-reports
+
+.. _code-testing:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code testing
+
+   testing
+   linters
+   testing-with-django
+   testing-with-node
+   testing-with-casper
+   travis
+   manual-testing
+
+.. _subsystem-documentation:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Subsystem documentation
+
    settings
-   i18n
-   issue-labels
-
-.. _business-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Business Documentation
-
-   business/index
-
-.. _custom-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Custom Install Documentation
-
-   custom_installs/index
-
-.. _design-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Designer Documentation
-
-   design
-   theme
-
+   events-system
+   queuing
+   bots-guide
+   custom-apps
+   pointer
+   markdown
+   realms
+   management-commands
+   front-end-build-process
+   schema-migrations
+   html_css
+   hashchange-system
+   emoji
+   hotspots
+   full-text-search
+   email
+   analytics
+   translating
+   client
+   logging
+   release-checklist
+   api-release-checklist
+   swagger-api-docs
+   README
+   user-docs
