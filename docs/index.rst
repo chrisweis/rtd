@@ -25,11 +25,6 @@ Contents:
 
 * :ref:`overview`
 * :ref:`zulip-in-production`
-* :ref:`development-environment`
-* :ref:`developer-tutorials`
-* :ref:`code-contribution-guide`
-* :ref:`code-testing`
-* :ref:`subsystem-documentation`
 
 .. _overview:
 
@@ -46,47 +41,3 @@ Contents:
    :caption: Zulip in production
 
    Production overview <prod>
-
-.. _development-environment:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Development environment
-
-   Development environment installation <dev-overview>
-
-.. _developer-tutorials:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Developer tutorials
-
-   integration-guide
-   integration-docs-guide
-
-.. _code-contribution-guide:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Code contribution guide
-
-   git-guide
-   bug-reports
-
-.. _code-testing:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Code testing
-
-   testing
-   manual-testing
-
-.. _subsystem-documentation:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Subsystem documentation
-
-   settings
-   README
