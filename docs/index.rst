@@ -43,4 +43,5 @@ Contents:
 
    Production overview <prod>
 
+.. image:: assets/images/digitalservicefabric-96.png
 .. image:: assets/images/opendataplatform-96.png
