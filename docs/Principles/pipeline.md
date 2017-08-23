@@ -1,4 +1,4 @@
-# Minimum requirements for CI/CD Pipeline
+# CI/CD Pipeline requirements
 
 ## Vision 
 

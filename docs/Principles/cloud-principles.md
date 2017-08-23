@@ -1,3 +1,5 @@
+# Cloud Principles
+
 ## Vision 
 
 * First, the principle of disposability. When we work with cloud infrastructure, we’re necessarily building distributed systems. This, in turn, requires a critical shift in both our mindset and our architectural and risk management principles. In internet-connected distributed systems, **we must accept that failures and security breaches are inevitable**.  Thus we change the focus of our work from trying to prevent outages or attacks to **developing the capability to detect them and restore service rapidly**. To prove we can withstand failure, we continually inject it into our systems, proactively attacking our infrastructure — a key principle behind cloud disaster recovery testing exercises and Netflix’s Chaos Monkey, known as chaos engineering.  
