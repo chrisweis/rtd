@@ -42,6 +42,7 @@ Contents:
    :caption: Columbia Sportswear 2nd Area
 
    Production overview <prod>
+   Implementation
 
 .. image:: assets/images/digitalservicefabric-96.png
 .. image:: assets/images/opendataplatform-96.png
