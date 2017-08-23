@@ -75,51 +75,28 @@ Contents:
 .. _developer-tutorials:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Developer tutorials
 
    integration-guide
    integration-docs-guide
-   webhook-walkthrough
-   new-feature-tutorial
-   writing-views
-   life-of-a-request
-   reading-list
-   screenshot-and-gif-software
-   fixing-commits
-   git-cheat-sheet-detailed
-   git-cheat-sheet
-   shell-tips
-   working-copies
 
 .. _code-contribution-guide:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Code contribution guide
 
    git-guide
-   version-control
-   code-style
-   mypy
-   code-reviewing
-   chat-zulip-org
-   zulipbot-usage
-   accessibility
    bug-reports
 
 .. _code-testing:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Code testing
 
    testing
-   linters
-   testing-with-django
-   testing-with-node
-   testing-with-casper
-   travis
    manual-testing
 
 .. _subsystem-documentation:
