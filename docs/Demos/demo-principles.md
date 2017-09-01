@@ -1,6 +1,6 @@
 # Vision
 
-1. In my mind these demos are a powerful mechanism to educate the broader organization on the benefits of Agile.  Let's no lose any opportunities to advance the state of Agile / DevOps / Continuous Improvement at Columbia 
+1. In my mind these demos are a powerful mechanism to educate the broader organization on the benefits of Agile.  Let's not lose any opportunities to advance the state of Agile / DevOps / Continuous Improvement at Columbia 
 
 2. I'd like to weave a connected story through our various activities, using the product API service that provides a coherent theme.  
 
